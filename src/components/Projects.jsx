@@ -3,19 +3,19 @@ import React from "react";
 const Projects = () => {
     const projects = [
         {
-            title: "Netflix Clone",
-            description: "A full-stack movie platform using Next.js and NestJS with IMDB integration.",
-            link: "https://github.com/your-github-username/netflix-clone"
+            title: "Parallel-Merge-Sort",
+            description: "Merge sort which uses threads to sort a array using recursive calls",
+            link: "https://github.com/aditya-amlesh-jha/ParallelMergeSort"
         },
         {
-            title: "Multithreaded Stock Aggregator",
-            description: "Java-based tool for concurrent stock price aggregation with caching.",
-            link: "https://github.com/your-github-username/stock-aggregator"
+            title: "ThreadPool",
+            description: "Scratch implementation of threadPool using blocking queue and fixed size thread pool",
+            link: "https://github.com/aditya-amlesh-jha/threadPool"
         },
         {
-            title: "URL Shortener",
-            description: "A minimal URL shortener built with Go, REST, and Docker support.",
-            link: "https://github.com/your-github-username/url-shortener"
+            title: "Multithreaded Server",
+            description: "Java based Server which uses thread pool to serve requests",
+            link: "https://github.com/aditya-amlesh-jha/MultiThreadedServer"
         }
     ];
 

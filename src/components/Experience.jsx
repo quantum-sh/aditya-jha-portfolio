@@ -17,8 +17,8 @@ const Experience = () => {
         {
             start: "05/2023",
             end: "08/2023",
-            company: "Wiley Edge",
-            role: "SRE",
+            company: "{}",
+            role: "SRE Trainee",
             tasks: [
                 "Handled production incidents and improved system reliability.",
                 "Automated recurring support tasks with Python scripts.",

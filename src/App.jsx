@@ -1,8 +1,9 @@
 import Introduction from './components/Introduction'
 import Projects from "./components/Projects.jsx";
 import InterestingStuff from "./components/InterestingStuff.jsx";
-import Resources from "./components/Resources.jsx";
+import Contact from "./components/Contact.jsx";
 import Experience from "./components/Experience.jsx";
+import Publications from "./components/Publications.jsx";
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
     <>
         <Introduction />
         <Experience />
+        <Publications/>
         <Projects/>
-        <Resources/>
+        <Contact/>
         <InterestingStuff/>
     </>
   )

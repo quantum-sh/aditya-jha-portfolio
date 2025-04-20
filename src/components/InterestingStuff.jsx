@@ -1,16 +1,20 @@
 const InterestingStuff = () => {
     const links = [
         {
+            label: "MultiThreading(Java Memory Model, Race Conditions, Inter Thread Communication)",
+            url: "https://www.youtube.com/playlist?list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4"
+        },
+        {
+            label: "Low Level Design",
+            url: "https://refactoring.guru/"
+        },
+        {
             label: "Understanding Event Loop in JavaScript",
             url: "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
         },
         {
-            label: "Designing Data-Intensive Applications (book summary)",
-            url: "https://medium.com/some-article"
-        },
-        {
-            label: "Clean Architecture GitHub Repo",
-            url: "https://github.com/your-github-username/clean-architecture"
+            label: "System Design Interview Prep",
+            url: "https://www.youtube.com/playlist?list=PL5q3E8eRUieWtYLmRU3z94-vGRcwKr9tM"
         }
     ];
 
