@@ -1,20 +1,17 @@
-import Introduction from './components/Introduction'
-import Projects from "./components/Projects.jsx";
-import InterestingStuff from "./components/InterestingStuff.jsx";
-import Contact from "./components/Contact.jsx";
-import Experience from "./components/Experience.jsx";
-import Publications from "./components/Publications.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import HomePage from "./pages/HomePage"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <>
-        <Introduction />
-        <Experience />
-        <Publications/>
-        <Projects/>
-        <Contact/>
-        <InterestingStuff/>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path = "/" element = {<HomePage/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
