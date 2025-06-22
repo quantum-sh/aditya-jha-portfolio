@@ -44,7 +44,10 @@ const ProjectsPage = () => (
             </div>
             <ul className="space-y-8 text-green-300">
                 {projects.map((project, idx) => (
-                    <li key={idx} className="bg-[#18181a] rounded-md p-4 border border-[#444]">
+                    <li
+                        key={idx}
+                        className="bg-[#18181a] rounded-md p-4 border border-[#444] hover:scale-105 transition-transform duration-300 shadow-xl"
+                    >
                         <div className="font-bold text-white mb-1">
                             {project.name} <span className="text-green-400">({project.period})</span>
                         </div>

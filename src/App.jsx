@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar"
 import ExperiencePage from "./pages/ExperiencePage"
 import ProjectsPage from "./pages/ProjectPage"
 import ContactPage from "./pages/ContactPage"
+import InterestingStuff from "./pages/InterestingStuff"
+import Articles from "./pages/Articles"
 
 function App() {
 
@@ -16,8 +18,8 @@ function App() {
           <Route path = "/experience" element = {<ExperiencePage/>}/>
           <Route path = "/projects" element = {<ProjectsPage/>}/>
           <Route path = "/contact" element = {<ContactPage/>}/>
-          <Route path = "/vault" element = {<div>Vault Page</div>}/>
-          <Route path = "/articles" element = {<div>My Articles Page</div>}/>
+          <Route path = "/vault" element = {<InterestingStuff/>}/>
+          <Route path = "/articles" element = {<Articles/>}/>
         </Routes>
       </BrowserRouter>
     </>

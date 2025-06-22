@@ -1,9 +1,10 @@
 import React from "react";
 
+const EMAIL = "18aditya.jha@gmail.com"
+const LINKEDIN_USERNAME = "quantum-sh"
+const GITHUB_USERNAME = "quantum-sh"
+
 const ContactPage = () => {
-    const EMAIL = "18aditya.jha@gmail.com"
-    const LINKEDIN = "https://www.linkedin.com/in/aditya-amlesh-jha/"
-    const GITHUB = "https://github.com/quantum-sh"
     return (
         <div className="min-h-screen w-full flex items-center justify-center bg-black font-mono pt-8">
             <div className="flex flex-col w-full max-w-2xl p-4">
@@ -27,23 +28,23 @@ const ContactPage = () => {
                         <li>
                             <span className="text-green-400 font-bold">LinkedIn:</span>{" "}
                             <a
-                                href="https://www.linkedin.com/in/aditya-amlesh-jha/"
+                                href={`https://www.linkedin.com/in/${LINKEDIN_USERNAME}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="underline hover:text-green-300"
                             >
-                                linkedin.com/in/aditya-amlesh-jha
+                                linkedin.com/in/{LINKEDIN_USERNAME}
                             </a>
                         </li>
                         <li>
                             <span className="text-green-400 font-bold">GitHub:</span>{" "}
                             <a
-                                href="https://github.com/aditya-amlesh-jha"
+                                href={`https://github.com/${GITHUB_USERNAME}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="underline hover:text-green-300"
                             >
-                                github.com/aditya-amlesh-jha
+                                github.com/{GITHUB_USERNAME}
                             </a>
                         </li>
                     </ul>
