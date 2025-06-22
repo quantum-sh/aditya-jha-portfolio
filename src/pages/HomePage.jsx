@@ -16,7 +16,7 @@ const HomePage = () => {
                 span.textContent = chars[Math.floor(Math.random() * chars.length)];
                 span.style.opacity = Math.random() > 0.8 ? 0.7 : 0.3 + Math.random() * 0.5;
             });
-        }, 120);
+        }, 1200);
         return () => clearInterval(interval);
     }, []);
 
