@@ -2,14 +2,17 @@ import homeArt from '../assets/homeArt.js';
 
 const HomePage = () => {
     return (
-        <div className="min-h-screen w-full flex items-center justify-center bg-black font-mono">
-            <div className="flex flex-col md:flex-row items-center md:items-start w-full max-w-6xl p-4">
-                {/* Rocket Launch ASCII Art */}
-                <pre className="text-green-400 text-[8px] md:text-base select-text leading-none pr-6 md:pr-12 md:min-w-[36ch]">
-                    {homeArt}
-                </pre>
-                {/* Motivational & Role Info */}
-                <div className="text-green-400 text-base select-text font-normal md:pl-8 max-w-xl">
+        <div className="min-h-screen w-full flex items-center bg-black font-mono">
+            <div className="flex flex-col md:flex-row items-center w-full p-4 gap-4 md:gap-8">
+                {/* Rocket Launch ASCII Art - Extreme left on desktop/tablet, top on mobile */}
+                <div className="flex-shrink-0 md:pl-4">
+                    <pre className="text-green-400 text-[8px] md:text-base select-text leading-none">
+                        {homeArt}
+                    </pre>
+                </div>
+                
+                {/* Motivational & Role Info - Right side with auto margin to push right */}
+                <div className="text-green-400 text-base select-text font-normal max-w-xl md:ml-auto md:pr-4">
                     <div>
                         <span className="font-bold text-white text-lg">aditya@portfolio</span>
                     </div>
